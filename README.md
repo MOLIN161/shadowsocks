@@ -17,4 +17,9 @@ $ pip install shadowsocks
 Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-install-RW_sjI/shadowsocks/
 sudo python -m pip install --upgrade --force pip 
 sudo pip install setuptools==33.1.1
+## 一键安装
+1)wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh  
 
+2)chmod +x shadowsocks-libev-debian.sh  
+
+3)./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
