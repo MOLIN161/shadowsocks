@@ -23,3 +23,24 @@ sudo pip install setuptools==33.1.1
 2)chmod +x shadowsocks-libev-debian.sh  
 
 3)./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
+
+
+　　卸载方法：使用 root 用户登录，运行以下命令：
+
+　　./shadowsocks-libev.sh uninstall
+1
+　　安装完成后即已后台启动 shadowsocks ，运行：
+
+　　ps -ef | grep ss-server | grep -v ps | grep -v grep
+1
+　　可以查看进程是否存在。此脚本安装完成后，会将 shadowsocks-libev 加入开机自启动。
+
+　　使用命令：
+
+　　启动：/etc/init.d/shadowsocks start
+
+　　停止：/etc/init.d/shadowsocks stop
+
+　　重启：/etc/init.d/shadowsocks restart
+
+　　查看状态：/etc/init.d/shadowsocks status
