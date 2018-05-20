@@ -45,8 +45,6 @@ sudo pip install setuptools==33.1.1
 
 　　查看状态：/etc/init.d/shadowsocks status
   ## linux上客户端  
-  sudo add-apt-repository ppa:hzwhuang/ss-qt5
-1
-sudo apt-get update
-1
-sudo apt-get install shadowsocks-qt5
+  sudo add-apt-repository ppa:hzwhuang/ss-qt5  
+  sudo apt-get update  
+  sudo apt-get install shadowsocks-qt5
