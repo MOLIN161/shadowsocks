@@ -47,4 +47,5 @@ sudo pip install setuptools==33.1.1
   ## linux上客户端  
   sudo add-apt-repository ppa:hzwhuang/ss-qt5  
   sudo apt-get update  
-  sudo apt-get install shadowsocks-qt5
+  sudo apt-get install shadowsocks-qt5。
+  需要用Foxyproxy-standard配置
